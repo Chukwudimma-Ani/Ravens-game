@@ -152,8 +152,7 @@ class Particles{
 function drawScore() {
     ctx.fillStyle = ' black';
     ctx.fillText('Score :  ' + score, 50, 75);
-    ctx.fillStyle = ' white';
-    ctx.fillText('Score :  ' + score, 55, 80);
+    
 }
 
 
@@ -163,8 +162,7 @@ function drawGameOver() {
     ctx.textAlign = 'center';
     ctx.fillStyle = ' black';
     ctx.fillText('GameOver! your Score is:  ' + score, canvas.width/2, canvas.height/2 );
-    ctx.fillStyle = ' white';
-    ctx.fillText('GameOver! your Score is:  ' + score, canvas.width/2 + 5, canvas.height/2 + 5 );
+    
 }
  
 window.addEventListener("click", function (event) {
