@@ -161,7 +161,7 @@ function drawScore() {
 function drawGameOver() {
     ctx.textAlign = 'center';
     ctx.fillStyle = ' white';
-    ctx.fillText('GameOver! your Score is:  ' + score, canvas.width/2, canvas.height/2 );
+    ctx.fillText('GameOver! your Score is:  ' +"<hr/>" + score, canvas.width/2, canvas.height/2 );
     
 }
  
