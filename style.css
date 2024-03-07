@@ -1,10 +1,19 @@
 body{
-    background: linear-gradient(to right,
-     rgb(60, 22, 22), rgba(107, 120, 107, 0.33), rgba(135, 6, 6, 0.34));
+    
     width: 100vw;
     height: 100vh;
     overflow: hidden; 
 
+}
+@media (prefers-color-scheme: dark) {
+    html{
+        background-image: url(halloween.jpg);
+    }
+}
+@media (prefers-color-scheme:light) {
+    html{
+        background-image: url(background-img.avif);
+    }
 }
 #canvas5{
     
