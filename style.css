@@ -1,7 +1,7 @@
 
 @media (prefers-color-scheme: dark) {
     html{
-        background-image: url(halloween.jpg);
+        background-image: url(bg-img.jpg);
          width: 100vw;
         height: 100vh;
         overflow: hidden; 
@@ -9,7 +9,7 @@
 }
 @media (prefers-color-scheme:light) {
     html{
-        background-image: url(background-img.avif);
+        background-image: url(halloween.jpg);
          width: 100vw;
         height: 100vh;
         overflow: hidden; 
