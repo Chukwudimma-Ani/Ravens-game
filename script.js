@@ -150,7 +150,7 @@ class Particles{
 }
 
 function drawScore() {
-    ctx.fillStyle = ' black';
+    ctx.fillStyle = ' white';
     ctx.fillText('Score :  ' + score, 50, 75);
     
 }
@@ -160,7 +160,7 @@ function drawScore() {
 
 function drawGameOver() {
     ctx.textAlign = 'center';
-    ctx.fillStyle = ' black';
+    ctx.fillStyle = ' white';
     ctx.fillText('GameOver! your Score is:  ' + score, canvas.width/2, canvas.height/2 );
     
 }
